@@ -1,10 +1,7 @@
 //Write a program to implement singly linked list
 #include<stdio.h>
-
 #include<conio.h>
-
 #include<stdlib.h>
-
 struct node
 
 {
@@ -112,25 +109,9 @@ head=head->next;
 
 free(loc);	}
 
-}break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-case 6:{if(head==NULL)
+}
+    break;
+  case 6:{if(head==NULL)
 
 printf("list is empty");
 
@@ -212,18 +193,8 @@ case 8:{exit(1);}break;
 return 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
 OUTPUT :
 
 
